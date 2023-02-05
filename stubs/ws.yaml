@@ -1,0 +1,20 @@
+# Wordsmith configuration file
+# Document dimensions in mm
+title: "Sample"
+authors:
+  - Name <name@email.com>
+document:
+  dimensions: [210.0, 297.0]
+  margins:
+    left: 10.0
+    top: 16.0
+    right: 10.0
+    bottom: 10.0
+cover:
+  file: "cover.jpg"
+  dimensions: [210.0, 297.0]
+  position:
+    left: 0.0
+    right: 0.0
+    top: 0.0
+    bottom: 0.0

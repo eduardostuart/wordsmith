@@ -1,0 +1,73 @@
+<link href="@themes_path/css/reset.css" rel="stylesheet" />
+
+<style>
+  @page :first {
+    margin: 0;
+  }
+
+  .info-block,
+  .warn-block,
+  .quote-block,
+  .danger-block {
+    padding: 10px;
+    margin: 4px 0;
+    border-radius: 3px;
+  }
+
+  .info-block {
+    background-color: lightblue;
+    color: rgb(29, 29, 138);
+  }
+
+  .cover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .cover > img {
+    margin: 0;
+  }
+
+  h1 {
+    page-break-before: always;
+  }
+
+  @font-face {
+    font-family: "Noto Serif";
+    src: url("@assets_path/fonts/NotoSerif/NotoSerif-Bold.ttf")
+      format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Noto Serif";
+    src: url("@assets_path/fonts/NotoSerif/NotoSerif-BoldItalic.ttf")
+      format("truetype");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Noto Serif";
+    src: url("@assets_path/fonts/NotoSerif/NotoSerif-Italic.ttf")
+      format("truetype");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Noto Serif";
+    src: url("@assets_path/fonts/NotoSerif/NotoSerif-Regular.ttf")
+      format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+</style>

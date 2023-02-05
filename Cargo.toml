@@ -1,0 +1,30 @@
+[package]
+name = "wordsmith"
+version = "0.1.0"
+edition = "2021"
+authors = ["Eduardo Stuart <e@s.tuart.me>"]
+readme = "README.md"
+homepage = "https://github.com/eduardostuart/wordsmith"
+repository = "https://github.com/eduardostuart/wordsmith"
+license-file = "LICENSE.md"
+keywords = ["htmltopdf", "book-from-markdown", "md", "mdpdf"]
+categories = ["text-editors", "command-line-utilities"]
+exclude = ["stubs/"] 
+
+[dependencies]
+anyhow = "1.0.68"
+clap = { version = "4.1.4", features = ["derive"] }
+colored = "2.0.0"
+comrak = "0.16.0" 
+headless_chrome = "1.0.2"
+lazy_static = "1.4.0"
+log = "0.4.17"
+regex = "1.7.1"
+rust-embed = { version = "6.4.2", features = ["include-exclude"] }
+simple_logger = "4.0.0"
+thiserror = "1.0.38"
+yaml-rust = "0.4.5"
+
+[[bin]]
+name = "wordsmith"
+path = "./src/main.rs"
