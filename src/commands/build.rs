@@ -39,7 +39,7 @@ impl Build {
 
     PdfGen::new(config).generate(html_file, self.path.join("output/pdf.pdf"))?;
 
-    // doc_builder.clean_after_build();
+    doc_builder.clean_after_build();
 
     println!("{}", "Done!".green());
 
