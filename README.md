@@ -13,27 +13,27 @@ Wordsmith is a `cli` that helps you to write ebooks using Markdown.
 
 ## Special tags
 
-```
+```blade
 @info something @endinfo
 ```
 
-```
+```blade
 @danger something @enddanger
 ```
 
-```
+```blade
 @warn something @endwarn
 ```
 
-```
+```blade
 @quote something @endquote
 ```
 
-```
+```blade
 ![My image](@assets_path/images/image.png)
 ```
 
-```
+```blade
 @break
 ```
 
