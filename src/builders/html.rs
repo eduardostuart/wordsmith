@@ -12,6 +12,8 @@ use std::{
   path::PathBuf,
 };
 
+// TODO: Extract html/css stuff from here(?)
+
 lazy_static! {
     /// Default theme
     static ref DEFAULT_THEME: &'static str = "light";
