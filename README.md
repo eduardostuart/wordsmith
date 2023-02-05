@@ -7,33 +7,34 @@ Wordsmith is a `cli` that helps you to write ebooks using Markdown.
 - [x] Custom cover photo
 - [x] Code syntax highlight
 - [x] Custom themes
-- [x] Custom markdown components
-- [ ] Custom fonts
+- [x] Custom components/tags
+- [x] Custom fonts
+- [ ] Header/Footer
 
 ## Special tags
 
 ```
-[info] something [/info]
+@info something @endinfo
 ```
 
 ```
-[danger] something [/danger]
+@danger something @enddanger
 ```
 
 ```
-[warn] something [/warn]
+@warn something @endwarn
 ```
 
 ```
-[quote] something [/quote]
+@quote something @endquote
 ```
 
 ```
-![My image]([assets_path]/images/image.png)
+![My image](@assets_path/images/image.png)
 ```
 
 ```
-[break]
+@break
 ```
 
 ## Credits
