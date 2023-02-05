@@ -15,6 +15,11 @@ Wordsmith is a `cli` that helps you to write ebooks using Markdown.
 > TODO: headless chrome does not use author meta tags;
 > find a way to update the pdf info
 
+## Installation
+
+> TODO
+> brew, curl, ...
+
 ## Usage
 
 > TODO: describe all functionalities
