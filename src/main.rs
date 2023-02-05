@@ -1,17 +1,7 @@
-use crate::{cli::Commands, commands::Build};
 use anyhow::Result;
 use clap::Parser;
-use cli::Cli;
-use commands::Init;
 use log::Level;
-
-mod assets;
-mod builders;
-mod cli;
-mod commands;
-mod components;
-mod config;
-mod error;
+use wordsmith::{Build, Cli, Commands, Init};
 
 fn main() -> Result<()> {
   // Parse cli commands
