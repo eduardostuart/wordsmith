@@ -36,29 +36,6 @@ impl Config {
   }
 
   /// Load project configuration file from a yaml file
-  ///
-  /// ```yaml
-  ///  # Wordsmith configuration file
-  ///  title: "Sample"
-  ///  authors:
-  ///    - Name <name@email.com>
-  ///    - Name B <name-b@email.com>
-  ///  document:
-  ///    dimensions: [8.7, 11.69] #inches
-  ///    margins:
-  ///      left: 0.0
-  ///      top: 0.0
-  ///      right: 0.0
-  ///      bottom: 0.0
-  ///  cover:
-  ///    file: "cover.jpg"
-  ///    dimensions: [8.7, 11.69]
-  ///    position:
-  ///      left: 0.0
-  ///      right: 0.0
-  ///      top: 0.0
-  ///      bottom: 0.0
-  /// ```
   pub fn load_from_file(&mut self, file: &Path) -> Result<Self> {
     let source = fs::read_to_string(file)?;
     let doc = YamlLoader::load_from_str(&source)?;
